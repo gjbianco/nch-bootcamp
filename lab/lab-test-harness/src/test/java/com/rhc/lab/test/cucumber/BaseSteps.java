@@ -23,7 +23,7 @@ public class BaseSteps {
 		System.out.println("Given step: " + venueName + " " + occupancy);
 	}
 
-	@And("^the venue accomodates performances by a \"(.*?)\", \"(.*?)\"$")
+	@And("^the venue accommodates performances by a \"(.*?)\", \"(.*?)\"$")
 	public void the_venue_accomodates_performances_by_a(String artistType1,
 			String artistType2) throws Throwable {
 		// Set properties regarding allowed performances
