@@ -63,9 +63,9 @@
 				<form:input path="Capacity" />
 			</div>
 			<div class="form-group blocks">
-				<label class="clear" for="accomodations">Performance Accomodations</label>
+				<label class="clear" for="accommodations">Performance Accommodations</label>
 					<form:checkboxes items="${performanceTypes}" itemLabel="label"
-						path="accomodations" />
+						path="accommodations" />
 			</div>
 
 			<button class="btn btn-lg btn-success pull-right" type="submit">Submit</button>
