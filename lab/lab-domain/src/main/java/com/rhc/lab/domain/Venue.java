@@ -24,7 +24,7 @@ public class Venue implements Serializable, Comparable<Venue> {
 	private String name;
 	private String city;
 	private Integer capacity;
-	private List<PerformanceType> accomodations;
+	private List<PerformanceType> accommodations;
 
 	public String getId() {
 		return id;
@@ -59,11 +59,11 @@ public class Venue implements Serializable, Comparable<Venue> {
 	}
 
 	public List<PerformanceType> getAccomodations() {
-		return accomodations;
+		return accommodations;
 	}
 
-	public void setAccomodations(List<PerformanceType> accomodations) {
-		this.accomodations = accomodations;
+	public void setAccomodations(List<PerformanceType> accommodations) {
+		this.accommodations = accommodations;
 	}
 
 	public static long getSerialversionuid() {
